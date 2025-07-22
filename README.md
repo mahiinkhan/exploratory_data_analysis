@@ -1,8 +1,8 @@
-## 📊 Exploratory Data Analysis (EDA) – Book Price Dataset
-# 🧾 Overview
+# 📊 Exploratory Data Analysis (EDA) – Book Price Dataset
+## 🧾 Overview
 This project performs Exploratory Data Analysis (EDA) on book data scraped from https://books.toscrape.com. The dataset contains book titles, prices, and availability. EDA helps understand the data structure, identify trends, detect anomalies, and prepare the data for future use in machine learning or reporting.
 
-# 📁 Dataset Details
+## 📁 Dataset Details
 Filename: books_dataset.csv Columns:
 
 Title: Book name
@@ -13,7 +13,7 @@ Availability: Stock status (string)
 
 InStock: Boolean column derived from availability
 
-# ✅ Project Goals
+## ✅ Project Goals
 Clean and prepare the raw dataset
 
 Understand the distribution of prices
@@ -24,7 +24,7 @@ Explore stock availability
 
 Generate visual insights
 
-# 📦 Libraries Used
+## 📦 Libraries Used
 
 | Library       | Purpose                         |
 | ------------- | ------------------------------- |
@@ -33,7 +33,7 @@ Generate visual insights
 | `seaborn`     | Statistical data visualization  |
 | `scipy.stats` | Outlier detection using z-score |
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 1. Install Required Libraries
 ```bash
 pip install pandas matplotlib seaborn scipy
@@ -45,7 +45,7 @@ Jupyter Notebook
 
 Python Script
 
-# 🔍 Key Steps Performed
+## 🔍 Key Steps Performed
 1. Load and Explore Previewed top rows using head()
 Checked column types and structure with info()
 
@@ -74,12 +74,12 @@ Boxplot of price outliers
 
 Price comparison by availability
 
-# 📤 Output
+## 📤 Output
 Cleaned dataset: books_dataset_cleaned.csv
 
 Plots and insights in eda_books.ipynb
 
-# 📌 File Structure
+## 📌 File Structure
 ```bash
 book-eda/
 ├── books_dataset.csv             # Original dataset
