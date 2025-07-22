@@ -1,4 +1,4 @@
-# 📊 Exploratory Data Analysis (EDA) – Book Price Dataset
+# 📊 Task 1: Exploratory Data Analysis (EDA) – Book Price Dataset
 ## 🧾 Overview
 This project performs Exploratory Data Analysis (EDA) on book data scraped from https://books.toscrape.com. The dataset contains book titles, prices, and availability. EDA helps understand the data structure, identify trends, detect anomalies, and prepare the data for future use in machine learning or reporting.
 
